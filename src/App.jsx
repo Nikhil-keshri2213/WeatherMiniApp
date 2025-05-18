@@ -97,7 +97,7 @@ const getCurrentLocation=()=>{
       {error && (
         <p className='text-red-500 text-center mt-4'>{error}</p>
       )}
-
+      <footer className='text-slate-600 font-medium capitalize text-sm mt-4 text-right w-full'>@Developed by Nikhil Keshri</footer>
     </div>
   </div>
 );
